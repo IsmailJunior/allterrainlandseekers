@@ -8,7 +8,7 @@ import ScrollDown from '@/app/_components/scroll-down';
 
 const i18Namespaces = ["common"];
 
-const Navigation: FC<{locale: any}> = async ({locale}) =>
+const Navigation: FC<{locale: string}> = async ({locale}) =>
 {
 	const { t } = await initTranslations( locale, i18Namespaces )
 	const navLinks = [

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 
-const Home: NextPage<{ params: { locale: any; }; }> = async ( { params: { locale } } ) =>
+const Home: NextPage<{ params: { locale: string; }; }> = async ( { params: { locale } } ) =>
 {
   return (
     <section className='relative'>

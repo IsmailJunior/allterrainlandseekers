@@ -4,7 +4,7 @@ import resourcesToBackend from 'i18next-resources-to-backend';
 import {i18nConfig} from '@/app/_config/i18nConfig';
 
 export default async function initTranslations(
-  locale: unknown,
+  locale: string,
   namespaces: any[],
   i18nInstance?: any,
   resources?: any

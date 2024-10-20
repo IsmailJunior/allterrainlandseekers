@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 export function generateStaticParams() {
-	return i18nConfig.locales.map((locale: any) => ({ locale }));
+	return i18nConfig.locales.map((locale: string) => ({ locale }));
 }
 
 export default async function RootLayout({
@@ -42,7 +42,7 @@ export default async function RootLayout({
 	params: { locale },
 }: Readonly<{
 	children: React.ReactNode;
-	params: { locale: any };
+	params: { locale: string };
 }>) {
 	const { resources } = await initTranslations(locale, i18Namespaces);
 	return (
