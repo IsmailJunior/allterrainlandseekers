@@ -5,8 +5,10 @@ import {i18nConfig} from '@/app/_config/i18nConfig';
 
 export default async function initTranslations(
   locale: string,
-  namespaces: any[],
+  namespaces: string[],
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   i18nInstance?: any,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   resources?: any
 ) {
   i18nInstance = i18nInstance || createInstance();
