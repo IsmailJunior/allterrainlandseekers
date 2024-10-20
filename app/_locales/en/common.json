@@ -1,0 +1,46 @@
+{
+	"title": "All Terrain Land Seekers",
+	"description": "Welcome to the parental leave trip of Anni, Tobi & Lara",
+	"navLinks": {
+		"home": {
+			"label": "home",
+			"href": "#"
+		},
+		"blog": {
+			"label": "blog",
+			"href": "#"
+		},
+		"map": {
+			"label": "map",
+			"href": "#"
+		},
+		"podcast": {
+			"label": "podcast",
+			"href": "#"
+		},
+		"people": {
+			"label": "people",
+			"href": "#"
+		},
+		"videos": {
+			"label": "videos",
+			"href": "#"
+		},
+		"topics": {
+			"label": "topics",
+			"href": "#"
+		},
+		"counter": {
+			"label": "counter",
+			"href": "#"
+		},
+		"about": {
+			"label": "about",
+			"href": "#"
+		},
+		"guide": {
+			"label": "guide",
+			"href": "#"
+		}
+	}
+}

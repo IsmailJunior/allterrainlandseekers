@@ -1,0 +1,46 @@
+{
+	"title": "متسلقون كل الجبال",
+	"description": "اهلاً بكم في مغامرة شيقة مع اني، توبي و لارا.",
+	"navLinks": {
+		"home": {
+			"label": "الرئيسية",
+			"href": "#"
+		},
+		"blog": {
+			"label": "المدونة",
+			"href": "#"
+		},
+		"map": {
+			"label": "الخريطة",
+			"href": "#"
+		},
+		"podcast": {
+			"label": "بودكاست",
+			"href": "#"
+		},
+		"people": {
+			"label": "اشخاص",
+			"href": "#"
+		},
+		"videos": {
+			"label": "مقاطع الفيديو",
+			"href": "#"
+		},
+		"topics": {
+			"label": "مواضيع",
+			"href": "#"
+		},
+		"counter": {
+			"label": "ارقام",
+			"href": "#"
+		},
+		"about": {
+			"label": "من نحن",
+			"href": "#"
+		},
+		"guide": {
+			"label": "الدليل",
+			"href": "#"
+		}
+	}
+}
