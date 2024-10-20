@@ -7,7 +7,8 @@ import initTranslations from "@/app/_config/i18n";
 type providersType = {
 	children: ReactNode;
 	locale: string;
-	namespaces: any;
+	namespaces: string[];
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	resources: any;
 };
 

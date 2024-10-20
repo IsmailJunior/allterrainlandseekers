@@ -4,7 +4,8 @@ import { TranslationsProvider } from "@/app/_providers/translations-providers";
 type providersType = {
 	children: ReactNode;
 	locale: string;
-	namespaces: any;
+	namespaces: string[];
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	resources: any;
 };
 
